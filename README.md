@@ -1,4 +1,4 @@
 # LeetCodeProblems
-Solving LeetCode Problems 
+Solving LeetCode Problems. Using JS, Java and Python    
 
 Total Solved: 8 
