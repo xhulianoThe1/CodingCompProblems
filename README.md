@@ -1,5 +1,5 @@
 # LeetCodeProblems
 Solving LeetCode Problems. Using JS, Java and Python    
 
-Total Solved: 9
+Total Solved: 10
 
