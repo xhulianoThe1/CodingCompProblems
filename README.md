@@ -1,6 +1,6 @@
 # LeetCodeProblems
 Solving LeetCode Problems. Using JS, Java and Python    
 
-Total Solved: 25
+Total Solved: 26  
 
 
