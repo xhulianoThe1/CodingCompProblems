@@ -1,9 +1,9 @@
 # LeetCodeProblems
 Solving LeetCode Problems. Using Python, JS and Java    
 
-Total Solved: 45
+Total Solved: 46
 
-39 Easy
+40 Easy
 6 Medium 
 
 
