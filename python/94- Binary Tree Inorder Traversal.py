@@ -8,11 +8,11 @@ class Solution(object):
         return arr
         
         #Second Solution 
-        '''
+       '''
         class Solution(object):
     def inorderTraversal(self, root):
         if root: 
             return(self.inorderTraversal(root.left) + [root.val] +  self.inorderTraversal(root.right))
         else: 
             return [] 
-            ''' 
+          ''' 
