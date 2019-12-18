@@ -1,0 +1,8 @@
+import collections 
+class Solution(object):
+    def singleNumber(self, nums):
+        a = collections.Counter(nums).values()
+        b = collections.Counter(nums).keys()
+        for i in range(len(a)): 
+            if a[i] == 1: 
+                return b[i]
