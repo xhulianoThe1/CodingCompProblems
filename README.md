@@ -5,5 +5,4 @@ Total Solved: 70
 
 64 Easy
 6 Medium 
-
-
+1 Hard
