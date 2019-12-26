@@ -1,6 +1,5 @@
 class Solution(object):
     def maxDepth(self, root):
-        #Base Case 
         if root == None: 
             return 0
         else: 
