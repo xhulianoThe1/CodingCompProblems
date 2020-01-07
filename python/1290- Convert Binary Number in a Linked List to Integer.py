@@ -4,5 +4,4 @@ class Solution(object):
         while head: 
             s += str(head.val)
             head = head.next
-        s1 = "".join(map(str, s))
-        return int(s1, 2)
+        return int(s, 2)
