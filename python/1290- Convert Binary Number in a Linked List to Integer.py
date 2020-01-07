@@ -1,8 +1,8 @@
 class Solution(object):
     def getDecimalValue(self, head):
-        arr =[] 
+        s = " "
         while head: 
-            arr.append(head.val)
+            s += str(head.val)
             head = head.next
-        s = "".join(map(str, arr))
-        return int(s, 2)
+        s1 = "".join(map(str, s))
+        return int(s1, 2)
