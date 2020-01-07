@@ -1,7 +1,5 @@
 class Solution(object):
     def searchMatrix(self, matrix, target):
-        if len(matrix) == 0: 
-            return False
         for i in range(len(matrix)):   
             k = 0 
             while k < len(matrix[i]): 
