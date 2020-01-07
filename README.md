@@ -1,8 +1,8 @@
 # LeetCodeProblems
 Solving LeetCode Problems. Using mostly Python but Java and JS as well. 
 
-Total Solved: 84
+Total Solved: 85
 
-73 Easy
-10 Medium 
+74 Easy
+11 Medium 
 1 Hard
