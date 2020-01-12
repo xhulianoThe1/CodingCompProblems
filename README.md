@@ -3,6 +3,6 @@ Solving LeetCode Problems. Using mostly Python but Java and JS as well.
 
 Total Solved: 87
 
-74 Easy
-12 Medium 
+75 Easy
+13 Medium 
 1 Hard
