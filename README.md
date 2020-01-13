@@ -1,5 +1,5 @@
 # LeetCodeProblems
-Solving LeetCode Problems. Using mostly Python but Java and JS as well. 
+Solving LeetCode Problems. Using mostly Python. 
 
 Total Solved: 90
 
