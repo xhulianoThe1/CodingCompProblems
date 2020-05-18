@@ -7,7 +7,6 @@ class Solution(object):
         for i in range(len(nums)): 
             if target - nums[i] in dic and i != dic[target - nums[i]]: 
                 return [i, dic[target - nums[i]]] 
-                retirn 
 
 
 #Solution 2 
