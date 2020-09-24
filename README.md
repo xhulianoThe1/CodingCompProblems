@@ -1,7 +1,7 @@
 # LeetCodeProblems
 Solving LeetCode Problems. Using mostly Python. 
 
-Total Solved: 112
+Total Solved: 113
 
 88 Easy
-24 Medium 
+25 Medium 
