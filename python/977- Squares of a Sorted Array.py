@@ -1,6 +1,3 @@
-class Solution(object):
-    def sortedSquares(self, A):
-        res = [] 
-        for i in A: 
-            res.append(i**2)
-        return sorted(res)
+class Solution:
+    def sortedSquares(self, nums: List[int]) -> List[int]:
+        return sorted([i*i for i in nums])
