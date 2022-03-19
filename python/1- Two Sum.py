@@ -1,10 +1,7 @@
 class Solution(object):
     def twoSum(self, nums, target):
-        dict = {}
-        for index, val in enumerate(nums): 
-            if (target - val) in dict:  
-                return (index, dict[target-val])
-            dict[val] = index
-        return 0
-        
-        
+        dic = {}        
+        for idx, val in enumerate(nums): 
+            if target - val in dic and idx != dic[target-val]: 
+                return idx, dic[target-val]
+            dic[val] = idx
