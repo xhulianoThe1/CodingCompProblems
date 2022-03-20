@@ -15,8 +15,7 @@ class Solution(object):
 class Solution(object):
     def climbStairs(self, n):
         if n == 0 or n == 1: 
-            ans = 1
-            return ans 
+            return 1 
         b = [None] * (n+1)
         b[0] = 1
         b[1] = 1
