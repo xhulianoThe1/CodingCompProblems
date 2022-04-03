@@ -1,13 +1,11 @@
-class Solution(object):
-    def threeSum(self, nums):
-        s = set()
+class Solution:
+    def threeSum(self, nums: List[int]) -> List[List[int]]:
         dic = {}
-        nums.sort()
-        for i in range(len(nums)): 
-            dic[nums[i]] = i 
-        for i in range(len(nums)):  
-            for k in range(i+1, len(nums)): 
-                target = -(nums[i] + nums[k])
-                if target in dic and dic[target] > k: 
-                    s.add((nums[i], nums[k], target))
+        s = set()        
+        for i, i_val in enumerate(nums): 
+            for k, k_val in enumerate(nums): 
+                eq = (-1*i_val) + (-1*k_val)
+                if eq in dic and (i!=k) and (i!=dic[eq]) and k != dic[eq]: 
+                    s.add(tuple(sorted([i_val, k_val, eq]))) 
+            dic[(i_val)] = i
         return s
