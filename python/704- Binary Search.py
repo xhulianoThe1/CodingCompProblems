@@ -5,7 +5,7 @@ class Solution(object):
         #right pointer starting at the rightmost end of the array
         right = len(nums) -1 
         while left <= right: 
-            mid = left + (right - left) //2 
+            mid = left + (right - left) //2 #;) 
             #if the middle of the search is the target we're done
             if nums[mid] == target: 
                 return mid
