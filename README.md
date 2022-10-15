@@ -5,4 +5,4 @@ Total Leetcode Solved: 118
 91 Easy
 29 Medium 
 
-Project Euler # of problem solved; 29
+Project Euler # of problem solved: 29
