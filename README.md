@@ -3,4 +3,4 @@ Solving LeetCode, EPI (Elements of Programming Interviews) and CSES problems usi
 
 Total Leetcode Solved: 120 91 Easy 29 Medium
 
-Project Euler # of problem solved: 37
+Project Euler # of problem solved: 38
